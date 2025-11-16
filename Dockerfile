@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Establecer directorio de trabajo
-WORKDIR /app
+WORKDIR /app/user-crud-monitoring/app
 
 # Copiar archivos de requerimientos
 COPY requirements.txt .
